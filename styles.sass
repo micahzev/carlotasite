@@ -1,18 +1,124 @@
 body
-  height: 100%
   margin: 0
   padding: 0
-
-div
   background-color: #f4e703
 
+.header
+  background-color: #f4e703
+  visibility: hidden
+  font-family: "Amarante-Regular"
+
+  @media(min-width: 512px)
+    visibility: visible
+
+.header-section
+  font-size: 6vw
+  padding-top: 0
+  margin-top: 0
+  padding-left: 4rem
+  letter-spacing: 5px
+  background-color: #f4e703
+  // width: 100vw
+  border-bottom: 2px solid black
+  display: flex
+
+.carlota
+  margin-right: 1rem
+  cursor: pointer
+
+  &:active
+    color: red
+
+.header-link
+  font-size: 2vw
+  width: fit-content
+  height: fit-content
+  padding: 0 15px
+  margin: 5px 3px
+  border: 2px solid black
+  border-radius: 5px
+
+  &:hover
+    cursor: pointer
+    background-color: #f9f381
+
+  &:active
+    cursor: pointer
+    background-color: black
+    color: #f4e703
+
+
+.app-container
+  background-color: #f4e703
+  margin-bottom: 75vh
+
 img
-  width: 100%
-  max-height: 100%
+  max-width: 80vw
+  max-height: 80vh
+  padding: 2rem
+  margin: 55px auto 0px
+  position: absolute
+  top: 5%
+  right: 0%
+  transform: rotate(90deg) scaleY(-1)
+  // z-index: 10000
+
+  @media(min-width: 512px)
+    top: 0%
+    right: 0%
+    max-width: 80vw
+    transform: rotate(0deg) scaleX(1)
+
+  @media(min-width: 1024px)
+    right: 20%
 
 .hello-appear
-  opacity: 0.1
+  opacity: 0
 
 .hello-appear.hello-appear-active
   opacity: 1
-  transition: opacity 3s ease-in-out
+  transition: opacity .5s ease-in-out
+
+.by-line
+  font-family: "Amarante-Regular"
+  font-size: 1.5rem
+  position: absolute
+  top: 65vh
+  right: 5vw
+  text-align: center
+
+  @media(min-width: 512px)
+    top: 60vh
+
+  @media(min-width: 768px)
+    top: 80vh
+
+@font-face
+  font-family: "Amarante-Regular"
+  src: local("Amarante-Refgular"), url("/static/fonts/Amarante-Regular.eot") format("embedded-opentype"), url("/static/fonts/Amarante-Regular.woff2") format("woff2"), url("/static/fonts/Amarante-Regular.woff") format("woff"), url("/static/fonts/Amarante-Regular.ttf") format("truetype"), url("/static/fonts/Amarante-Regular.svg") format("svg")
+
+
+.section
+  padding: 0rem
+  font-family: "Amarante-Regular"
+
+.section-header
+  padding: 1rem
+  padding-left: 4rem
+  font-size: 3rem
+  text-transform: uppercase
+
+.section-body
+  font-size: 1.7rem
+  padding: 1rem 3rem
+  padding-left: 4rem
+  text-align: justify
+  line-height: 3rem
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+
+
+.foot
+  height: 5vh
+  text-align: center
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+  padding-top: 5vh

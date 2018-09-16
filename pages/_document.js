@@ -9,6 +9,7 @@ export default class MyDocument extends Document {
           <meta charSet='utf-8' />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
           <link rel="stylesheet" href="/_next/static/style.css" />
+          <link rel="shortcut icon" href="/static/yellow.ico" />
         </Head>
         <body>
           <Main />
