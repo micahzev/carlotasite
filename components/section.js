@@ -1,5 +1,5 @@
 const Section = (props) => (
-  <div className="section">
+  <div className="section" name={props.info.headline}>
     <div className="section-header">
       {props.info.headline}
     </div>
