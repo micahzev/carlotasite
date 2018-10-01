@@ -4,12 +4,11 @@ body
   background-color: #f4e703
 
 .header
+  grid-area: header
   background-color: #f4e703
-  visibility: hidden
   font-family: "Amarante-Regular"
-
-  @media(min-width: 512px)
-    visibility: visible
+  align-self: center
+  justify-self: center
 
 .header-section
   font-size: 6vw
@@ -23,20 +22,28 @@ body
   display: flex
 
 .carlota
-  margin-right: 1rem
+  width: fit-content
+  font-size: 6vw
   cursor: pointer
 
   &:active
-    color: #e60000
+    color: #f4e703
+    background-color: black
 
 .header-link
-  font-size: 2vw
+  font-size: 1.8rem
   width: fit-content
   height: fit-content
-  padding: 0 15px
-  margin: 5px 3px
+  padding: 0 25px
+  margin: 8px 3px
   border: 2px solid black
-  border-radius: 5px
+  font-family: "Amarante-Regular"
+  // border-top: 4px double black
+  // border-left: 6px solid black
+  border-bottom: 4px solid black
+  border-radius: 10px
+  // border-bottom-left-radius: 0
+  border-bottom-right-radius: 0
 
   &:hover
     cursor: pointer
@@ -48,30 +55,36 @@ body
     background-color: #f4e703
     color: black
 
+.menu
+  grid-area: menu
+  margin-top: 8rem
+  margin-right: 5rem
+  font-family: "Amarante-Regular"
+  display: flex
+  flex-direction: column
+  align-items: flex-end
 
-.app-container
-  background-color: #f4e703
-  margin-bottom: 85vh
+.app-lander
+  height: 100vh
+  display: grid
+  grid-template-areas: "header" "image" "byline"
+  grid-template-columns: 1fr
+  align-items: center
 
-img
-  max-width: 80vw
-  max-height: 80vh
-  padding: 2rem
-  margin: 55px auto 0px
-  position: absolute
-  top: 5%
-  right: 0%
-  transform: rotate(90deg) scaleY(-1)
-  // z-index: 10000
+.carlotaC
+  font-size: 5rem
 
-  @media(min-width: 512px)
-    top: 0%
-    right: 0%
-    max-width: 80vw
-    transform: rotate(0deg) scaleX(1)
+.section-body-paragraph
+  margin-bottom: 3rem
 
-  @media(min-width: 1024px)
-    right: 20%
+.image-box
+  grid-area: image
+  align-self: center
+  justify-self: center
+
+.loteria
+  margin-left: 1rem
+  max-width: 50vw
 
 .hello-appear
   opacity: 0
@@ -81,22 +94,45 @@ img
   transition: opacity .5s ease-in-out
 
 .by-line
+  grid-area: byline
+  align-self: center
+  justify-self: center
   font-family: "Amarante-Regular"
-  font-size: 1.5rem
-  position: absolute
-  top: 65vh
-  right: 5vw
-  text-align: center
-
-  @media(min-width: 512px)
-    top: 60vh
-
-  @media(min-width: 768px)
-    top: 80vh
+  font-size: 1.75rem
+  // margin-left: 1rem
 
 @font-face
   font-family: "Amarante-Regular"
   src: local("Amarante-Refgular"), url("/static/fonts/Amarante-Regular.eot") format("embedded-opentype"), url("/static/fonts/Amarante-Regular.woff2") format("woff2"), url("/static/fonts/Amarante-Regular.woff") format("woff"), url("/static/fonts/Amarante-Regular.ttf") format("truetype"), url("/static/fonts/Amarante-Regular.svg") format("svg")
+
+
+.burger-1, .burger-2, .burger-3
+  width: 35px
+  height: 5px
+  background-color: #333
+  margin: 6px 0
+  transition: 0.4s
+
+.burgerMenu, .burgerClose
+  display: inline-block
+  cursor: pointer
+  margin: 1rem
+
+/* Rotate first bar */
+.burgerClose .burger-1
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px)
+  transform: rotate(-45deg) translate(-9px, 6px)
+
+
+/* Fade out the second bar */
+.burgerClose .burger-2
+  opacity: 0
+
+
+/* Rotate last bar */
+.burgerClose .burger-3
+  -webkit-transform: rotate(45deg) translate(-8px, -8px)
+  transform: rotate(45deg) translate(-8px, -8px)
 
 
 .section
@@ -115,12 +151,12 @@ img
   padding-left: 4rem
   text-align: justify
   line-height: 4rem
-  font-family: "Trebuchet MS", Helvetica, sans-serif
+  font-family: "Amarante-Regular"
   margin-bottom: 3rem
 
 
 .foot
   height: 5vh
   text-align: center
-  font-family: "Trebuchet MS", Helvetica, sans-serif
-  padding-top: 5vh
+  font-family: "Amarante-Regular"
+  padding: 5vh

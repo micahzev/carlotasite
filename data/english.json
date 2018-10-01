@@ -1,12 +1,220 @@
 {
   "sections": [
     {
-      "headline": "Residency",
-      "text": "CARLOTA is a residency program that proposes 3 annual exchanges between artists living in Mexico and Belgium each for a duration of 3 months. Every trimester, an artist from Belgium and an artist from Mexico will travel across the Atlantic simultaneously and exchange their respective studios. A total of 6 artists will be selected to participate every year: 3 artists living and working in Belgium and 3 artists from Mexico. Each residency will result in two exhibitions held in both countries and a single publication, made collaboratively by both residents, as the fruit of their respective experiences."
+      "menu": "residency",
+      "image": "lobster.png",
+      "headline": "The Residency",
+      "text": [
+        "CARLOTA is a residency program that proposes 3 annual exchanges between artists living and working in Belgium and in Mexico. Each trimester an artist from Mexico and an artist from Belgium will travel simultaneously across the Atlantic to exchange their respective studios. In total 6 artists are selected each year. Every residency period will result in two exhibitions held in both countries and a single publication, made collaboratively by both residents, as the fruit of their respective experiences.",
+        "CARLOTA offers residents in Mexico accommodation, a monthly stipend of 500 euros for living expenses and a production fee of 1000 euros.",
+        "The residents coming to Belgium receive accommodation, a monthly stipend of 700 euros for living expenses and a production fee of 1500 euros."
+      ]
     },
     {
+      "menu": "exchange of studios",
+      "image": "lobster.png",
       "headline": "Exchange of Studios",
-      "text": "By appropriating Carlota’s name as the title of the residency program, we wish to transform the historic figure of Carlota into a metaphor as a means to challenge the definition and the basic assumptions that underline the concept of the artist residency as such. For this reason, we decided to propose an exchange of studios between the two selected residents from opposite continents, where both will have to work and consequently adapt their practice to the intimate space of their co-resident. The definition of studio is considered here in its broadest sense: all types of spaces that accomodate artistic production and reflection (shared or private studios, public space, the home, etc). Instead of offering presumably neutral conditions for artistic production, which allow the artist to work peacefully and in retreat, we wish to challenge the artists by having them settle in an already tainted, immersive context loaded with specific meanings and sensibilities particular to each artist and their practice. Likewise, we also ask artists to live up to the challenge to open up their own private work environment and to accomodate their fellow resident and collegue. The conditions we propose inevitably raise a number of questions: How will such a framework influence the artists’ practices? What are the challenges this type of structure brings forth? How to avoid falling into the trap of clichés related to travelling and a fascination for the exotic? What problems do the artists encounter when they elaborate, integrate and confront their work to a new context and a different culture? For each residency, the situation will be fluctuant and singular, where each artist will have to compose with a different reality, integrate into an unfamiliar artist community and be exposed to different references. We encourage the artists to engage in a reciprocal dialogue during the time of their residency. A mutual trust will also have to be established between the artists concerning the exchange of their work space. CARLOTA wishes to offer artists of both countries the opportunity to interrogate and reflect critically on the different and perhaps unfamiliar contexts in which they will be working. We hope that this experience will allow each resident to challenge their artistic practice and to observe their work under a new light."
+      "text": [
+        "CARLOTA is not a standard residency program. Instead of offering our residents a neutral workspace to reflect and produce new projects, we set the condition that the participating artists exchange their respective studios. In this way we wish to provoke a dialogue between the distinct practices of artists from Mexico and Belgium, where they have to adapt to the intimate, conditioned work environment of their fellow resident. We interpret the concept of workspace in the broadest sense: any type of environment the artist uses to reflect and produce work. This can be an individual or shared studio space, a café, an office, a rehearsal space, a living room, an industrial compound, a library or the public space. In their application artists are asked to describe their work environment in a practical and/or poetic way."
+      ]
+    },
+    {
+      "menu": "network of affinities",
+      "image": "lobster.png",
+      "headline": "Network of Affinities",
+      "text": [
+        "At the end of each residency the research and work of both residents in Mexico and Belgium will culminate in two exhibitions. The exhibitions will be hosted by already established independent art spaces within the Mexican and Belgian art scene. In this way we wish to create a network between independent art spaces situated in both countries who in comparison to bigger institutions and museums often receive less international attention. Our partner-spaces take part in the selection process of the artist they will receive and the artist that will travel simultaneously to the opposite continent.",
+        "Our partner spaces in Belgium are: Damien and the Love Guru, Etablissement d’en Face, Greylight Projects, Island, Komplot and SUPERDEALS",
+        "Our partner spaces in Mexico are: Biquini Wax, Hector, guadalajara90210, Ladron, Lagos and Vernacular Institute"
+      ]
+    },
+    {
+      "menu": "exhibition/publication",
+      "image": "lobster.png",
+      "headline": "Two exhibitions, 1 publication",
+      "text": [
+        "Each residency period ends for each artist with an exhibition in Mexico and Belgium that opens the same day. Although the exhibitions will be separated by a distance of 9000 km, a publication will be made in collaboration with both residents and an invited graphic designer. This publication will be the opportunity for audience in both countries to discover the research and work of the absent artist. The publication brings together the work process, dialogue and correspondence between both artists during the residency period.",
+        "Our invited graphic designers are: Arno Baudin (http://zulu-press.com/), Olivier Bertrand (http://olivierbertrand.com), Studio Katsu (www.carlavaldivia.odie.us), Maxime Dossin and Chantal Garduño (www.indexartbookfair.com)"
+      ]
+    },
+    {
+      "menu": "selection process",
+      "image": "lobster.png",
+      "headline": "Selection Process",
+      "text": [
+        "Each year in January CARLOTA organizes an open call for artists living and working in Mexico and Belgium.",
+        "The selection of the participating artists will be made collectively by a team of professionals active in the Mexican and Belgian art scenes. Since the residents will exchange their respective workspaces, their task lies mainly in selecting artists from both countries whose practices show interesting concurrences and between whose practices we believe a significant and surprising dialogue is possible."
+      ],
+      "bios": {
+        "headline": "The members of our selection committee are:",
+        "committe": [
+          {
+            "name": "Sébastien Capouet",
+            "status": "co-founder CARLOTA",
+            "bio": [
+              "Sébastien Capouet (b. 1989) lives and works in Brussels. In recent years, the apparatus that Sébastien employs in his exhibitions consist of paintings, photographs, and more recently videos, where each medium questions and extends the other. Every body of work deals with memory and convokes images that oscillate between documentary and fantasy. On the other hand, Sébastien Capouet has been involved over the 4 last years with the programmation and organisation of exhibitions, seminars and conferences at the Sceptre, Brussels, a shared artist studio that he together with Benjamin Installé and Julien Aurgean founded in 2013."
+            ]
+          },
+          {
+            "name": "Amanda de la Garza",
+            "status": "curator MUAC",
+            "bio": [
+              "Amanda de la Garza Mata (Mexico,1981) Lives and works in Mexico City. She is curator, art historian and poet. She currently works as Adjunct Curator at the University Museum of Contemporary Art (MUAC, UNAM) since 2012. She holds a BA in Sociology, and a MA in Social Anthropology and in she is pursuing a MA in Art History-Curatorial Studies. She has developed curatorial projects in Mexico, Argentina, Colombia, Chile, Spain and USA. She has been awarded the Emerging Curators Prize, Frontiers Biennial, and several research grants in Mexico and abroad. Some of her recent curatorial projects include Leandro Katz. Project For the Day You’ll Love Me and the Ghost Dance (MUAC, 2018), Tlacolulokos (LALA-PST, Getty Foundation / Los Angeles Central Library, 2017), Ignasi Duarte. Fictional Conversations (MUAC, 2017), Oscar Santillán. Macula (MUAC, 2017), To the Artist of the World. The Museum of Solidarity Salvador Allende. Mexico/Chile 1971-1977 (MUAC-MSSA, Santiago, Chile, 2016); Isaac Julien. Playtime & Kapital (MUAC, 2016); The thick sap. Equidistant essays on the tropics (Casa del Lago, Mexico City, 2016). Jeremy Deller. The infinitely ideal of the popular (MUAC, CA2M, Madrid, 2015); Harun Farocki. Vision.Production.Opression (MUAC, 2014) and Hito Steyerl. Circulationism (MUAC, 2014), co-curated with Cuauhtémoc Medina. She has published poems, interviews, reviews and academic articles in local and international journals on subjects such as poetry, documentary photography, urban studies and contemporary art. She is interested in interdisciplinary practices in contemporary art that involve poetry, cinema, Social Sciences, archival research and contemporary dance."
+            ]
+          },
+          {
+            "name": "Diego del Valle",
+            "status": "editor Terremoto",
+            "bio": [
+              "Diego del Valle Ríos (Mexico City, 1990) is an independent curator and researcher around issues of gender, feminism, queer / cuir theory and decolonialism in relation to contemporary artistic practice in Latin America. He has collaborated on projects such as Arena México Arte Contemporáneo, the Mexican Gobelins Workshop, Diéresis Collection, Páramo, Spinello Projects and the First International Forum on Violence and Art (Guadalajara, 2013). He was co-director of the independent exhibition space Trama Centro. He is member of the study group Less Foucault Más Shakira on queer theory, feminism and anti-racist thought from the Global South. He is currently editor of the journal Terremoto, a magazine dedicated to the dissemination of critical thinking based on contemporary art in the Americas."
+            ]
+          },
+          {
+            "name": "Laura Herman",
+            "status": "curator la Loge",
+            "bio": [
+              "Laura Herman (b.1988, Brussels) is a curator and writer whose work focuses on spatial infrastructure, organisational models, and affective architectures.",
+              "She currently serves as a curator at La Loge, a Brussels-based space dedicated to contemporary art, architecture, and theory, and she is an editor at De Witte Raaf. She is theory tutor at the department Contextual Design of Design Academy Eindhoven. Laura graduated from the Center for Curatorial Studies at Bard College (CCS Bard, 2016) in New York, and holds a master’s degree in Comparative Modern Literature (Ghent University, 2010).",
+              "From 2012 to 2014 she served as an assistant curator at Z33, House for Contemporary Art in Hasselt. Her reviews and essays have appeared in Mousse, Frieze, Spike Art Quarterly, Metropolis M, De Witte Raaf, and elsewhere, and she has curated exhibitions and events including 'Wild Horses & Trojan Dreams' at Marres (Maastricht, 2013), 'Definition Series: Infrastructure' at the Storefront for Art and Architecture (New York, 2016), 'The Office for Doubts and Desires' at P!, (New York, 2016),  'Third Nature' at the Hessel Museum (New York, 2016), and 'Natural Capital (Modal Alam)', an exhibition and online publication produced in the context of Europalia Indonesia's Curatorial Award (Brussels, 2018).",
+              "Laura is a member of the evaluation committee of the Arts and Heritage Agency of the Flemish Government for art and architecture, and a member of the International Association of Art Critics (AICA). With Charlotte Van Buylaere, she is currently developing 'Family Fictions' and 'The Family Trap', reading group and exhibition that will open in Extra City Kunsthal (Antwerp, 2019) that questions family as the legal basis of citizenship, property and the state."
+            ]
+          },
+          {
+            "name": "Laetitia Jeurissen",
+            "status": "co-founder CARLOTA",
+            "bio": [
+              "Laetitia Jeurissen (b.1989) is an artist who lives and works between Mexico City and Brussels since 2014.",
+              "Her practice has expanded over recent years into various collaborative projects, the creation of platforms of exchange of knowledge and experimental exhibition formats. In 2014 she co-founded Aztlan with Mexican artist Gabriel Gonzalez-Acosta, an interdisciplinary platform for discursive activities ranging from art, critical theory to activism. The projects of Aztlan have been hosted by Bozar, Brussels, the Royal College of Art, London and the Museo el Chopo in Mexico City. In 2016 she founded Squash, an ephemeral exhibition space located inside a squash center in Mexico City. www.squasheditions.com"
+            ]
+          },
+          {
+            "name": "Gabriel Kuri",
+            "status": "artist",
+            "bio": [
+              "Gabriel Kuri (b.1970, Mexico City)",
+              "Focusing on the objects and space that mediate human relationships, Gabriel Kuri explores the potential for transformation latent in all familiar things and situations when observed from an unconventional angle. Playing with the principles of minimalism and the history of consumption, he integrates elements of everyday life into sculptures and collages. Plastic bags, advertising flyers, receipts and tickets –residues of the interactions that make us human– are brought together with stones, coins and cigarette butts, as well as industrial materials, such as cement, brushed steel and insulation rolls. In his work, the viewer’s attention is drawn to the dynamic and unstable space that opens up at the intersection of two opposite concepts, in the precarious and yet precise meeting of the unexpected. The creation of systems is at the base of his artistic practice, ordering different elements until certain patterns begin to emerge and new semantic connections are generated between existing forms and their uses. Often accompanied by idioms and vernacular phrases, his pieces invite a multilayered dialogue between the verbal and the visual. Kuri’s work questions the given tenets of contemporary culture, creating poetic juxtapositions and hybrid objects that serve to rethink the mundane, to find the eloquent and the extraordinary in daily life.",
+              "Gabriel Kuri was a part of the Taller de los Viernes with Gabriel Orozco from 1987 to 1991. He received his BA in Visual Arts at Escuela Nacional de Artes Plásticas, unam (Universidad Autónoma de México), Mexico City in 1992. In 1995 he also completed an MA in Fine Art from the Goldsmiths’ College University of London, United Kingdom.",
+              "His most important exhibitions include: with personal thanks to their contractual thingness, The Aspen Art Museum, Aspen, United States (2014-2015); All probability resolves into form, The Common Guild, 2014, Glasgow, Scotland (2014); bottled water branded water, Parc Saint Leger-Centre d'art contemporain, Pougues-les-Eaux, France (2013); Gabriel Kuri, Bergen Kunsthall, Bergen, Norway (2012); Nobody Needs to Know the Price of Your Saab, The ICA Boston, Boston, United States (2011); Nobody Needs to Know the Price of Your Saab, The Art Museum of the University of Houston, Houston, United States (2010); Soft Information in your Hard Facts, Museion-Museo de Arte Moderna, Bolzano, Italy (2010); Join the Dots and Make a Point, Kunstverein Freiburg; Kunstverein Bielefeld, Germany (2010); Start To Stop Stopping, MUHKA Museum van Hedendaagse Kunst Antwerpen, Antwerp, Belgium (2003); Momento de importancia, Sala 7, Museo Rufino Tamayo, Mexico City, Mexico (2000). Moreover, his work has been included in group exhibitions at institutions such as the Hammer Museum, Los Angeles CA, United States (2014); The Modern, Fort Worth, Texas, United States (2013); The Walker Art Center, Minneapolis, United States (2012); Fondazione Sandretto Re Rebaudengo, Turin, Italy (2010); Whitechapel Gallery, London, United Kingdom (2010); muhka, Museum van Hedendaagse Kunst Antwerpen, Antwerp, Belgium (2009); muac, Museo Universitario de Arte Contemporáneo, Mexico City (2008); New Museum, New York, United States (2007); REDCAT (The Roy and Edna Disney CalArts Theater); The Museum of Contemporary Art, Los Angeles, United States (2006) and the Serpentine Gallery, London, United Kingdom (2004), among others.",
+              "He has participated in various biennials, including: the 12th Havana Biennial (2015), the 54th and the 50th Biennale di Venezia, Venice, Italy (2011 and 2003) and the 5th Berlin Biennale, Berlin, Germany (2008).",
+              "Gabriel Kuri currently lives and works in Brussels, Belgium."
+            ]
+          },
+          {
+            "name": "Francesco Pedraglio and Tania Pérez Córdova",
+            "status": "Juan de la Cosa/John of the Thing",
+            "bio": [
+              "A collaboration between Tania Pérez Córdova and Francesco Pedraglio, Juan de la Cosa / John of the Thing, is a Mexico City/London-based, artist-led, independent publishing project interested in commissioning, republishing, translating and distributing works of fiction and poetry by writers and artists alike.",
+              "With bilingual editions and a specific focus on translation, Juan de la Cosa / John of the Thing explores the line separating literary works and the experimental writings put forward by visual artists, publishing authors that imagine new and ambiguous spaces for fiction and that test the limits of narrative and poetic writings.",
+              "http://www.johnofthething.net/about/"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "menu": "open call",
+      "image": "lobster.png",
+      "headline": "Open Call",
+      "text": [
+        "On the first of January 2019 artists can submit their application for the CARLOTA residency program of 2019. For your application please submit the following documents and combine them into a single PDF. Please specify in your motivation letter for which residency period you wish to apply:"
+      ],
+      "dates": [
+        "Residency period 1: March-June 2019",
+        "Residency period 2: August-September 2019",
+        "Residency period 3:  November 2019-January 2020"
+      ],
+      "application": [
+        "motivation letter and/or project description, specify which residency period you wish to apply for (max 1 page)",
+        "artistic CV (max 2 pages)",
+        "portfolio (max 8 pages)",
+        "description of your studio/work environment (max 2 pages text and/or images)",
+        "contact details, website, links to documentation online if not mentioned before (max 1 page)"
+      ]
+    },
+    {
+      "menu": "a brief history of CARLOTA",
+      "image": "lobster.png",
+      "headline": "A Brief History of CARLOTA",
+      "text": [
+        "CARLOTA borrows her name from Princess Charlotte of Belgium (1840-1927) who together with her husband the Habsburgian Maximilian I ruled as imperial couple in Mexico between 1864-1867. Their appointment turned out to be a final desperate attempt by Napoleon III to keep Mexico under European colonial control. Driven by political ambitions Maximilian and Charlotte left to Mexico, unconcious of the political instability that ruled in the country at the time. At their arrival in Mexico, Charlotte decides to change her name in the Spanish equivalent Carlota to show her willingness to adapt to the local language and culture. The imperial couple’s attempts to achieve support from the Mexican population were nevertheless in vain. Maximilian’s mandate was too liberal for their conservative supporters and too conservative for their liberal opponents, who rather saw someone of their liking as head of state. Napoleon III called his armies back to Europe and thus abandoned the imperial couple to their faith. Carlota departed resolutely to Europe to gather support from Pope Pius IX and Napoleon III. During her stay however, Maximilian is executed and Carlota, abandoned by her allies, suffers the rest of her life from paranoia and hallucinations where she cannot separate her past in Mexico from the present. She will spend the rest of her life until her death at age 87 in isolation in the castle of Bouchout, Belgium.",
+        "Although the residency program wishes to focus on actual matters and potential dialogues between contemporary art practices in Mexico and Belgium, the enigmatic figure of Carlota and the relatively unknown history between both countries seems the offer a starting point to reflect upon the obstacles and challenges a residency abroad brings about. Carlota’s ghost will safeguard our residents from the traps of cultural appropriation, exoticization and the unavoidable misinterpretations and misreadings that occur in the process of translation."
+      ]
+    },
+    {
+      "menu": "partners",
+      "image": "lobster.png",
+      "headline": "Partners",
+      "text": [],
+      "partners": [
+        {
+          "name": "Biquini Wax EPS",
+          "link": "https://www.facebook.com/biquini.wax",
+          "location": "MX"
+        },
+        {
+          "name": "Damien and the Love Guru",
+          "link": "http://www.damienandtheloveguru.com",
+          "location": "BE"
+        },
+        {
+          "name": "Etablissement d’en face",
+          "link": "http://www.etablissementdenface.com",
+          "location": "BE"
+        },
+        {
+          "name": "guadalajara90210",
+          "link": "http://guadalajara90210.com",
+          "location": "MX"
+        },
+        {
+          "name": "Greylight Projects",
+          "link": "https://greylightprojects.org",
+          "location": "BE"
+        },
+        {
+          "name": "Héctor",
+          "link": "https://www.facebook.com/hectorescandondf",
+          "location": "MX"
+        },
+        {
+          "name": "Island",
+          "link": "http://islandisland.be",
+          "location": "BE"
+        },
+        {
+          "name": "Komplot",
+          "link": "http://www.kmplt.be",
+          "location": "BE"
+        },
+        {
+          "name": "Ladron",
+          "link": "https://ladrongaleria.com",
+          "location": "MX"
+        },
+        {
+          "name": "Lagos",
+          "link": "https://artelagos.mx",
+          "location": "MX"
+        },
+        {
+          "name": "SUPERDEALS",
+          "link": "http://superdealsbrussels.org",
+          "location": "BE"
+        },
+        {
+          "name": "Vernacular Institute",
+          "link": "http://vernacular.institute",
+          "location": "ME"
+        }
+      ]
+    },
+    {
+      "menu": "contact",
+      "image": "lobster.png",
+      "headline": "Contact",
+      "text": [
+        "For further inquiries please contact us at carlota.residency@gmail.com"
+      ]
     }
   ]
 }

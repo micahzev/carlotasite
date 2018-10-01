@@ -1,34 +1,64 @@
-import { CSSTransitionGroup } from 'react-transition-group'
+import React from 'react'
 import Headroom from 'react-headroom'
+import { CSSTransitionGroup } from 'react-transition-group'
 import Section from '../components/section'
+import Burger from '../components/Menu'
 import '../styles.sass'
 import data from '../data/english.json'
 
 import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-const headings = data.sections.map(section => section.headline)
+export default class MyApp extends React.Component {
 
-export default () =>
-  <CSSTransitionGroup
-      transitionName='hello'
-      transitionAppear={true}
-      transitionAppearTimeout={500}
-      transitionEnter={false}
-      transitionLeave={false}>
-    <div className='app-container'>
-      <Headroom className='header'>
-        <div className='header-section'>
-          <div className='carlota' onClick={scroll.scrollToTop}>
-            CARLOTA
+  state = {
+      menu: data.sections.map(section => section.menu),
+      activeSection: data.sections[0],
+      burgerClass: 'burgerMenu',
+      showMenu: true
+    }
+
+  setActiveSection(i) {
+    console.log(this.state.activeSection)
+    this.setState({
+      activeSection: data.sections[i]
+    })
+    console.log(this.state.activeSection)
+  }
+
+  toggleSidenav() {
+    let css = (this.state.burgerClass === "burgerMenu") ? "burgerClose" : "burgerMenu";
+    this.setState({
+      burgerClass:css
+    })
+  }
+
+
+  render() {
+    return (
+      <div id="outer-container">
+        <Burger menu={this.state.menu} setActiveSection={this.setActiveSection.bind(this)} />
+        <div id="page-wrap">
+          <div className='app-lander'>
+            <div className='header'>
+              <div className='carlota'>
+                <span className="carlotaC">C</span> A R L O T A
+              </div>
+            </div>
+            <div className="image-box">
+              <img className="loteria" src='/static/lobster.png' alt='CARLOTA' />
+            </div>
+
+            <span className='by-line'>An Artist Residency between Belgium and Mexico</span>
           </div>
-          {headings.map((headline, i) => <Link className='header-link' key={i} activeClass="activeLink" to={headline} spy={true} smooth={true} offset={0} duration={500}>{headline}</Link>)}
+          <div name='scrollToMe'>
+            <Section info={this.state.activeSection}/>
+          </div>
+          <div className='foot'>
+          <div>CARLOTA Residency</div>
+          <div>&#127463;&#127466; &#129309; &#127474;&#127485;</div>
+          </div>
         </div>
-      </Headroom>
-      <img src='/static/lobster.png' alt='CARLOTA' />
-      <span className='by-line'>An Artist Residency between Belgium and Mexico</span>
-    </div>
-    {data.sections.map((info, i) => <Section name={info.headline} info={info} key={i} />)}
-    <div className='foot'>
-      Laetitia & Sébastien
-    </div>
-  </CSSTransitionGroup>
+      </div>
+    )
+  }
+}

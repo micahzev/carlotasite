@@ -4,8 +4,16 @@ const Section = (props) => (
       {props.info.headline}
     </div>
     <div className="section-body">
-      {props.info.text}
+      {props.info.text.map((text) =>
+        <div className="section-body-paragraph">
+          {text}
+        </div>
+      )}
     </div>
+    {props.info.bios ?
+      <div className="bios">
+      </div>
+       : null}
   </div>
 )
 
