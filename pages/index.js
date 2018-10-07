@@ -11,18 +11,16 @@ import { Link, Element , Events, animateScroll as scroll, scrollSpy, scroller } 
 export default class MyApp extends React.Component {
 
   state = {
-      menu: data.sections.map(section => section.menu),
+      menu: data.sections.map(section => section.headline),
       activeSection: data.sections[0],
       burgerClass: 'burgerMenu',
       showMenu: true
     }
 
   setActiveSection(i) {
-    console.log(this.state.activeSection)
     this.setState({
       activeSection: data.sections[i]
     })
-    console.log(this.state.activeSection)
   }
 
   toggleSidenav() {
@@ -32,30 +30,39 @@ export default class MyApp extends React.Component {
     })
   }
 
-
   render() {
     return (
       <div id="outer-container">
         <Burger menu={this.state.menu} setActiveSection={this.setActiveSection.bind(this)} />
-        <div id="page-wrap">
+        <div id="page-wrap" className='page-container'>
           <div className='app-lander'>
             <div className='header'>
               <div className='carlota'>
-                <span className="carlotaC">C</span> A R L O T A
+                CARLOTA
               </div>
-            </div>
-            <div className="image-box">
-              <img className="loteria" src='/static/lobster.png' alt='CARLOTA' />
+              <span className='by-line'>An Artist Residency between Belgium and Mexico</span>
             </div>
 
-            <span className='by-line'>An Artist Residency between Belgium and Mexico</span>
+            <div className='menu'>
+              {this.state.menu.map((menuItem, i) => (
+                <div
+                  key={i}
+                  className={
+                    'onpage-button ' + (menuItem == this.state.activeSection.headline ? 'active' : 'inactive')
+                  }
+                  onClick={() => this.setActiveSection(i)}>
+                  {menuItem}
+                </div>
+              ))}
+            </div>
+
+            <img className="loteria" src='/static/lobster.png' alt='CARLOTA' />
+
           </div>
-          <div name='scrollToMe'>
-            <Section info={this.state.activeSection}/>
-          </div>
+          <Section info={this.state.activeSection}/>
           <div className='foot'>
-          <div>CARLOTA Residency</div>
-          <div>&#127463;&#127466; &#129309; &#127474;&#127485;</div>
+            <div>CARLOTA Residency</div>
+            <div>&#127463;&#127466; &#129309; &#127474;&#127485;</div>
           </div>
         </div>
       </div>

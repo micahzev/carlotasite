@@ -28,7 +28,7 @@ export default class Burger extends React.Component {
         isOpen={this.state.menuOpen}
         pageWrapId={ "page-wrap" } outerContainerId={ "outer-container" } right>
       {this.props.menu.map((menuItem, i) => (
-        <div key={i} className='header-link' onClick={() => this.clickedLink(i)}>
+        <div key={i} className='onpage-button' onClick={() => this.clickedLink(i)}>
           {menuItem}
         </div>
       ))}

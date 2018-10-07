@@ -1,3 +1,5 @@
+import './section.sass'
+
 const Section = (props) => (
   <div className="section" name={props.info.headline}>
     <div className="section-header">
