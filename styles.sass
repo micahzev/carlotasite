@@ -3,6 +3,8 @@ body
   padding: 0
   background-color: #f4e521
   max-width: 100%
+  height: 100%
+  overflow: hidden
 
 @font-face
   font-family: "Amarante-Regular"
@@ -15,11 +17,17 @@ body
 .app
   max-width: 100%
   height: 100%
+  position: absolute
+  top: 0
+  bottom: 0
+  left: 0
+  right: 0
+  overflow: auto
 
 .slide
   max-width: 100%
   position: relative
-  height: 100vh
+  height: 100%
   background-color: #f4e521
 
 .loteria-center
@@ -35,19 +43,23 @@ body
   margin: auto
 
 
-.header
-  font-family: "Amarante-Regular"
-  margin-top: 0.5rem
-  margin-left: 5rem
-  font-kerning: normal
-
 .carlota
-  font-size: 85px
+  font-family: "Amarante-Regular"
+  position: absolute
+  top: 2rem
+  left: 5rem
+  font-kerning: normal
+  font-size: 80px
+  width: fit-content
 
 .by-line
-  font-family: "Zarathustra"
+  position: absolute
+  bottom: 2rem
+  right: 3rem
+  font-family: "Amarante-Regular"
   font-size: 25px
-  margin-left: 1rem
+  font-kerning: normal
+  text-transform: uppercase
 
 .menu
   margin-top: 2rem

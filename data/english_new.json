@@ -1,24 +1,20 @@
 {
-  "sections": [ {
+  "sections": [{
       "image": "lobsterweb.png",
-      "headline": "Carlota in a nutshell",
+      "headline": "The Residency",
+      "modalClass": "lobster",
       "text": [
-        "CARLOTA is a residency program that proposes 3 annual exchanges between artists living in Mexico and Belgium each for a duration of 3 months.",
+        "CARLOTA is a residency program that proposes 3 annual exchanges between artists living in Mexico and Belgium each for a duration of 3 months. Every trimester, an artist from Belgium and an artist from Mexico will travel across the Atlantic simultaneously and exchange their respective studios.",
 
-        "Every trimester, an artist from Belgium and an artist from Mexico will travel across the Atlantic simultaneously and exchange their respective studios.",
+        "A total of 6 artists will be selected to participate every year: 3 artists living and working in Belgium and 3 artists from Mexico. Each residency will result in two exhibitions held in both countries and a single publication, made collaboratively by both residents, as the fruit of their respective experiences.",
 
-        "A total of 6 artists will be selected to participate every year: 3 artists living and working in Belgium and 3 artists from Mexico.",
-
-        "Each residency will result in two exhibitions held in both countries and a single publication, made collaboratively by both residents, as the fruit of their respective experiences.",
-
-        "CARLOTA offers residents in Mexico accommodation, a monthly stipend of 500 euros for living expenses and a production fee of 1000 euros.",
-
-        "The residents coming to Belgium receive accommodation, a monthly stipend of 700 euros for living expenses and a production fee of 1500 euros."
+        "Carlota offers residents in Mexico accommodation, a monthly stipend of 500 euros for living expenses and a production fee of 1000 euros. The residents coming to Belgium receive accommodation, a monthly stipend of 700 euros for living expenses and a production fee of 1500 euros."
       ]
     },
     {
       "image": "coronaweb.png",
-      "headline": "A neglected history",
+      "headline": "History",
+      "modalClass": "crown",
       "text": [
         "CARLOTA borrows her name from Princess Charlotte of Belgium (1840-1927) who became Empress of Mexico between 1864 and 1867 where she ruled next to her spouse, emperor Maximilian I, for 4 consecutive years.",
 
@@ -47,7 +43,8 @@
     },
     {
       "image": "elparaguaweb.png",
-      "headline": "Exchange of studios",
+      "headline": "Exchange Studios",
+      "modalClass": "umbrella",
       "text": [
         "By appropriating Carlota’s name as the title of the residency program, we wish to transform the historic figure of Carlota into a metaphor as a means to challenge the definition and the basic assumptions that underline the concept of the artist residency as such.",
 
@@ -67,6 +64,7 @@
     {
       "image": "aranaweb.png",
       "headline": "Networks of affinities",
+      "modalClass": "spider",
       "text": [
         "Both Mexico and Belgium are situated at the center of their respective continents: that of America and Western Europe. Their geographic location has become, due to the effects of global- ization, a melting-pot of people from a range of different cultural and ethnic backgrounds. Both capitals have be- come increasingly important cultural centers that seem to draw artists from all parts of the world who desire to become actively involved in their rich and diverse art scenes.",
 
@@ -83,6 +81,7 @@
       "image": "eltamborweb.png",
       "headline": "2 exhibitions,",
       "headline2": "1 publication",
+      "modalClass": "drum",
       "text": [
         "In the final phase of the residency, two exhibitions will be organized simultaneously in Belgium and Mexico, hosted by our two partner artist-run-spaces in both countries. Although separated by a distance of 9000 km, the exhibitions will be accompanied by a single publication that will unite the projects of both artists developed during their respective residencies.",
 
@@ -98,16 +97,62 @@
     {
       "image": "laescaleraweb.png",
       "headline": "apply",
+      "modalClass": "ladder",
       "text": [
         "The selection process of the artists participating in the residency program will be done by an open call on our website (www.carlotaresidency.org) and will be shared on social networks (Facebook, Instagram, etc) as well as through other online platforms dedicated to the arts.",
 
         "This selection will be done by a committee of 10 people professionally active in the art scenes of Mexico and Belgium (list to be defined, see below).",
 
         "During the selection process we will be attentive to artists who, through their practice, question and reflect in a critical manner on the context in which they produce and address their work, drawing interpretations from it that are both singular and complex. It will also be fundamental for us to choose artists whose work we believe shares particular affinities and offers challenges that could, through the residency program, allow for a rich exchange and foster an original and imaginative dialogue."
+      ]
+    },
+    {
+      "image": "laluna.png",
+      "headline": "Support Us:",
+      "headline2": "La Carloteria",
+      "modalClass": "moon",
+      "text": [
+        "As a non-profit organization CARLOTA depends on funding, donations and support from friends and colleagues in the art world and beyond.",
+        "Inspired by the Mexican lottery game, on which Carlota’s visual identity is based, we propose a game of chance involving a series of collectable lottery boards made by the participating residents: LA CARLOTERIA.",
+        "A BRIEF HISTORY ABOUT A GAME.",
+        "The first records of prize tickets sold for monetary rewards finds` its origins in the 15th Century in the Low Countries (Bruges, Ghent, Utrecht) and was brought to New Spain (today Mexico) in the 18th Century as a form of entertainment for the upper classes before becoming a tradition at local fairs.",
+        "In Mexico, the rules of the loteria game resemble closely those of Bingo, except that the numbers are replaced by figures from popular culture and mythology. Instead of calling out the title of the image, the announcer usually gives an improvised short poem or a riddle alluding to the image on the card (e.g. “the coat for the poor” for the image of the sun.).",
+        "The linking of the loteria images to social commentary, political satire, derisive humor and wordplay has existed since the inception of the game.",
+        "The most common version of the Mexican Loteria was designed by a French businessman called Don Clemente Jacques in 1887. It remains today, 100 years later, one of the most popular boardgames played by all generations.",
+        "LA CARLOTERIA",
+        "Inspired by this traditional game of chance we ask of each participating resident of Carlota to imagine and reinvent a singular and unique loteria board made up of a template of 16 image placeholders.",
+        "The original work, created by the artist, will be copied and then divided into 16 separate cards, corresponding to the 16 boxes the board is comprised of.",
+        "To support our program, you can purchase one of the 16 pieces of the artwork, yet never possess the work in its entirety.",
+        "This collectively owned game can be played only when the various collectors of the work reunite. The players of the Carloteria are invited to a dinner hosted at the end of each residency in the presence of the artist, where they will be able to reassemble the playing cards and recompose the original piece.",
+        "In order to participate and have access to the Carloteria, players will have to choose between one of the two formulas described below:",
+        "CARLOTERIA UNA VEZ: 150 €",
+        "- participation in the CARLOTERIA for one residency period.",
+        "- An original playing card (10,5 x 14,8 cm) from the loteria board designed by the artist.",
+        "- A black and white poster of the entire loteria board designed by the artist.",
+        "- Invitation to the dinner hosted at the end of the residency in presence of the artist.",
+        "CARLOTERIA CADA VEZ: 1000 €",
+        "- Participation in the CARLOTERIA for the 6 residencies (over the course of two years).",
+        "- Six unique playing cards (10,5 x 14,8 cm) taken from the different lottery boards designed by the 6 participating residents.",
+        "- Six black and white posters of the different complete lottery boards created by the artists.",
+        "- Invitation to the dinners hosted at the end of each residency.",
+        "- Six publications created by the participating artists and published by CARLOTA."
       ],
+      "bankingDetails": [
+        "If you wish to support CARLOTA’s program by taking part in the CARLOTERIA you can make a deposit with your name and desired formula to:",
+        "CARLOTA ASBL IBAN:",
+        "BE78 0689 1093 2986",
+        "SWIFT: GKCCBEBB"
+      ]
+
+    },
+    {
+      "image": "elnopalweb.png",
+      "headline": "Selection Comittee",
+      "modalClass": "cactus",
+      "text": [],
       "bios": {
         "headline": "The members of our selection committee are:",
-        "committe": [ {
+        "committe": [{
             "name": "Sébastien Capouet",
             "status": "co-founder CARLOTA",
             "bio": [
