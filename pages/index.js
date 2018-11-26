@@ -2,6 +2,7 @@ import React from 'react'
 import Headroom from 'react-headroom'
 import { CSSTransitionGroup } from 'react-transition-group'
 import Section from '../components/section'
+import LoteriaCards from '../components/LoteriaCards'
 import Burger from '../components/Menu'
 import '../styles.sass'
 import data from '../data/english.json'
@@ -32,39 +33,23 @@ export default class MyApp extends React.Component {
 
   render() {
     return (
-      <div id="outer-container">
-        <Burger menu={this.state.menu} setActiveSection={this.setActiveSection.bind(this)} />
-        <div id="page-wrap" className='page-container'>
-          <div className='app-lander'>
-            <div className='header'>
-              <div className='carlota'>
-                CARLOTA
-              </div>
-              <span className='by-line'>An Artist Residency between Belgium and Mexico</span>
-            </div>
-
-            <div className='menu'>
-              {this.state.menu.map((menuItem, i) => (
-                <div
-                  key={i}
-                  className={
-                    'onpage-button ' + (menuItem == this.state.activeSection.headline ? 'active' : 'inactive')
-                  }
-                  onClick={() => this.setActiveSection(i)}>
-                  {menuItem}
-                </div>
-              ))}
-            </div>
-
-            <img className="loteria" src='/static/lobster.png' alt='CARLOTA' />
-
-          </div>
-          <Section info={this.state.activeSection}/>
-          <div className='foot'>
-            <div>CARLOTA Residency</div>
-            <div>&#127463;&#127466; &#129309; &#127474;&#127485;</div>
-          </div>
+      <div className='app'>
+        <div className='slide'>
+          <img className="loteria-center" src='/static/lobster.png' alt='CARLOTA' />
         </div>
+        <div className='slide'>
+          <div className='header'>
+            <div className='carlota'>
+              CARLOTA
+            </div>
+            <span className='by-line'>An Artist Residency between Belgium and Mexico</span>
+          </div>
+
+          <img className="loteria" src='/static/lobster.png' alt='CARLOTA' />
+
+        </div>
+
+        <LoteriaCards />
       </div>
     )
   }
