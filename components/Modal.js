@@ -1,5 +1,6 @@
 import React from 'react'
 import './loteriacards.sass'
+import isUrl from 'is-url'
 
 export default class Modal extends React.Component {
 
@@ -28,7 +29,31 @@ export default class Modal extends React.Component {
 
         </div>
         <div className='model-right'>
-          {this.props.data.text.map((text, i) => <div className='model-text-paragraph' key={i}>{text}</div>)}
+          {this.props.data.poem ?
+            <div className="poem">
+              <div className="stanza">
+                {this.props.data.poem.stanza1.map((text, i) => <div className='poem-line' key={i}>{text}</div>)}
+              </div>
+              <div className="stanza">
+                {this.props.data.poem.stanza2.map((text, i) => <div className='poem-line' key={i}>{text}</div>)}
+              </div>
+              <div className="poem-note">
+                {this.props.data.poem.note}
+              </div>
+            </div>
+             : null}
+          {this.props.data.text.map((text, i) => (
+            isUrl(text) ? <a target='_blank' href={text} className="model-text-paragraph-link">
+                                  <div className='model-text-paragraph' key={i}>{text}</div>
+                          </a> :  (
+                            Array.isArray(text) ?
+                            <div className='model-text-group' key={i-20000}>
+                            {text.map((text, i) =>
+                              <div className='model-text-group-paragraph'>{text}</div>)}</div>
+                            : <div className='model-text-paragraph' key={i}>{text}</div>
+                          )
+
+          ))}
           {this.props.data.bios ?
             <div>
               <div className='modal-bio-headline'>
